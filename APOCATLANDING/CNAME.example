@@ -1,0 +1,7 @@
+# OPTIONAL: Custom Domain Setup
+# If you want to use a custom domain (like apocat.com):
+# 1. Rename this file from "CNAME.example" to "CNAME" (no extension)
+# 2. Replace the content below with your domain name
+# 3. Configure your domain's DNS to point to GitHub Pages
+
+your-domain.com
