@@ -1,10 +1,10 @@
 {
   "name": "APOCATLYPSE MEOW Token List",
-  "timestamp": "2025-01-01T00:00:00Z",
+  "timestamp": "2024-12-31T12:00:00Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 0
+    "patch": 1
   },
   "tokens": [
     {
@@ -13,7 +13,7 @@
       "name": "APOCATLYPSE MEOW",
       "symbol": "APOCAT",
       "decimals": 18,
-      "logoURI": "https://github.com/APOCATLYPSEMEOW/APOCAT/blob/main/assets/logo.png?raw=true"
+      "logoURI": "https://raw.githubusercontent.com/APOCATLYPSEMEOW/APOCAT/main/assets/logo.png"
     }
   ]
 }
