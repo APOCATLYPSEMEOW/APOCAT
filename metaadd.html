@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<body>
+<button id="add">Add APOCAT to MetaMask</button>
+
+<script>
+document.getElementById('add').onclick = async () => {
+  if (!window.ethereum) {
+    alert('MetaMask nicht installiert');
+    return;
+  }
+
+  try {
+    await ethereum.request({
+      method: 'wallet_watchAsset',
+      params: {
+        type: 'ERC20',
+        options: {
+          address: '0x44E136EA30fF93ab1D2a64F598719Cc855bbcd7E',
+          symbol: 'APOCAT',
+          decimals: 18,
+          image: 'https://raw.githubusercontent.com/APOCATLYPSEMEOW/APOCAT/main/assets/logo.png'
+        }
+      }
+    });
+  } catch (e) {
+    console.error(e);
+  }
+};
+</script>
+</body>
+</html>
