@@ -10,11 +10,12 @@
     {
       "chainId": 1,
       "address": "0x44E136EA30fF93ab1D2a64F598719Cc855bbcd7E",
-      "name": "APOCATLYPSE MEOW",
+      "name": "APOCATLYPSE MEOW TOKEN",
       "symbol": "APOCAT",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/APOCATLYPSEMEOW/APOCAT/main/logo.png"
     }
   ]
 }
+
 
